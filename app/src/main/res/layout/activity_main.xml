@@ -31,6 +31,9 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/youtube_recycler"
+        android:padding="12dp"
+        android:background="#403E3E"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
